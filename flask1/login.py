@@ -75,7 +75,7 @@ def regsuc():
                                 'password': request.form['pass'] ,
                                 'contact': request.form['contact'] })
                 
-            return rediect(url_for('Home')) 
+            return redirect(url_for('Home')) 
         return 'already registered'
              
                   
